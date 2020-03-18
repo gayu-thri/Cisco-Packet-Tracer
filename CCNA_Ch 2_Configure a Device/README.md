@@ -11,3 +11,8 @@ In a Packet Tracer, Configure a
 Submit the Packet tracer file here.
 
  Note: Please mention the passwords in the packet tracer file itself.
+
+ ## In packet tracer file 
+Configured with the following: 
++ Console password: cisco
++ Privileged password: class
