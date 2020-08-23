@@ -49,3 +49,11 @@ delstr : The delete string can be specified as optional argument is not mentione
 
 Returns : Returns the argument string after performing the translations using the translation table.
 '''
+
+'''
+from collections import Counter
+def word_count(fname):
+    with open(fname) as f:
+        return Counter(f.read().split())
+print("No. of words in the file : " , word_count("abc.txt"))
+'''
