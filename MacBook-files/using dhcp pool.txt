@@ -1,0 +1,29 @@
+ip dhcp pool vlan10
+
+network 172.17.10.0 255.255.255.0
+
+default-gateway 172.17.10.1
+
+ip dhcp pool vlan20
+
+network 172.17.20.0 255.255.255.0
+
+default-gateway 172.17.20.1
+
+ip dhcp pool vlan30
+
+network 172.17.30.0 255.255.255.0
+
+default-gateway 172.17.30.1
+
+int vlan10
+
+ip address 172.17.10.1 255.255.255.0
+
+int vlan20
+
+ip address 172.17.20.1 255.255.255.0
+
+int vlan30
+
+ip address 172.17.30.1 255.255.255.0

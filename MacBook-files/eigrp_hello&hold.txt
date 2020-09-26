@@ -1,0 +1,6 @@
+int s0/1
+ip hello-interval eigrp 1 50
+ip hold-time eigrp 1 150
+int s0/0
+ip hello-interval eigrp 1 50
+ip hold-time eigrp 1 150
